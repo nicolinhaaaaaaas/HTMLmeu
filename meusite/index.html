@@ -18,15 +18,16 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Fotos</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">Sobre</a></li>
                     <li><a href="#">Segredo</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="content">
-            <h1>Olá, isso é apenas um teste</h1><br>
+            <h1>Olá, tudo bem?</h1><br>
+            <h2>Eu sou <span class="negocio"></span></h2>
             <p class="par">Imagine um lorem ipsum aqui, eu to me sentindo muito solitário
                 <br>Só queria alguém que pudesse me amar de forma romântica... seilá.
                 <br>Séra que algum dia irei achar? não sei.<br> 
@@ -43,7 +44,7 @@
                     <p class="cadastro">Email</p>
                     <input type="email" name="email" placeholder="Digite seu E-mail aqui">
                     <p class="cadastro">ZapZap</p>
-                    <input type="number" name="zap" placeholder="Digite seu zap aqui">
+                    <input type="text" name="zap" placeholder="Digite seu zap aqui">
                     <p class="cadastro">número do cartão de crédito</p>
                     <input type="password" name="card" placeholder="Digite o número do seu cartão">
                     <button class="envio"><a href="#">Finalizar cadastro</a></button>
@@ -60,10 +61,20 @@
                 <a href="https://github.com/nicolinhaaaaaaas"><i class="fa-brands fa-github"></i></a>
                 <a href="https://youtu.be/Cp2-rEhYNHs"><i class="fa-brands fa-youtube"></i></a>
             </div>
-            <p class="anel">@NicolaEmanuel meu pau no teu anel</p>
+            <p class="anel">@NicolasEmanuel meu pau no teu anel</p>
         </div>
 
     </div>
     
 </body>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed(".negocio", {
+        strings:["Nicolas Emanuel","Estupido", "Web Developer", "triste", "solteiro"],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop: true
+    });
+</script>
 </html>
